@@ -1,0 +1,51 @@
+    1  cd test-environment
+    2  mkdir docs
+    3  mkdir models
+    4  mkdir data
+    5  mkdir src
+    6  mkdir temp
+    7  cd data
+    8  mkdir input
+    9  mkdir output
+   10  cd ../src
+   11  mkdir notebooks
+   12  mkdir scripts
+   13  cd ..
+   14  rm *old*
+   15  rm *DELETE*
+   16  ls
+   17  ls *.* | wc -l > temp-numfiles.txt
+   18  cat temp-numfiles.txt
+   19  mv temp-* temp
+   20  ls
+   21  mv in*.csv data/input
+   22  mv out*.csv data/output
+   23  mv *.onyx models
+   24  mv *.md docs
+   25  mv *.py src/scripts
+   26  mv *.ipynb src/notebooks
+   27  ls
+   28  cd data
+   29  ls
+   30  cd input
+   31  ls
+   32  cd ../output
+   33  ls
+   34  cd ..
+   35  cd ../docs
+   36  ls
+   37  cd ../models
+   38  ls
+   39  cd ../src
+   40  ls
+   41  cd notebooks
+   42  ls
+   43  cd ../scripts
+   44  ls
+   45  cd ../..
+   46  tree
+   47  cd ..
+   48  tree test-environment
+   49  cd test-environment
+   50  ls -R
+   51  history > bash-history.txt
