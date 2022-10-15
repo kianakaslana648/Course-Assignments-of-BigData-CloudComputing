@@ -1,0 +1,2 @@
+The number of smokers is 111.
+The number of nonsmokers is 898.

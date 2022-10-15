@@ -1,0 +1,1 @@
+The only requirement is to judge for each line whether they are wanted. If they are, they will be sent as output. Reduce tasks are not needed.

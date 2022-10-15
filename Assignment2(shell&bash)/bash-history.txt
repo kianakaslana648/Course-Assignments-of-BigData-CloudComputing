@@ -1,0 +1,10 @@
+    1  data-script.bash 
+    2  data-script.bash
+    3  data-script.bash 
+    4  clear
+    5  bash data-script.bash > bash-stdout.txt
+    6  history > bash-history.txt
+    7  data-script.bash 
+    8  clear
+    9  bash data-script.bash > bash-stdout.txt
+   10  history > bash-history.txt
