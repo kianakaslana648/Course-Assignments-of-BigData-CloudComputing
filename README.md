@@ -6,6 +6,6 @@
 $\quad$• bash, MapReduce, Hadoop, Dask, Spark.  
 
 ### Programming Language & Tools
-$\quad$• Python, Jupyter Notebook  
+$\quad$• Python, ssh agent forward  
 
 $\quad$• AWS, Azure
